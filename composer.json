@@ -1,0 +1,30 @@
+{
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "project",
+
+"authors": [
+        {
+            "name": "Estefanio Nunes dos Santos",
+            "email": "estefanions@gmail.com"
+        },
+        {
+            "name": "Denis Mendes Pires",
+            "email": "denisbassplayer@gmail.com"
+        }
+],
+
+    "require": {
+        "php": ">=5.4.4",
+        "zuniphp/zuniphp": "dev-master",
+        "senun/widget-form": "dev-master",
+        "senun/widget": "dev-master",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev"
+}

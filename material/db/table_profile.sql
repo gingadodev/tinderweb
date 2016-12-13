@@ -1,0 +1,15 @@
+CREATE TABLE `db_ibgen`.`tinder_profile` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `firstName` VARCHAR(250) NULL,
+  `lastName` VARCHAR(250) NULL,
+  `age` INT NULL,
+  `email` VARCHAR(250) NULL,
+  `password` VARCHAR(250) NULL,
+  `image` VARCHAR(250) NULL,
+  `gender` VARCHAR(250) NULL,
+  `showProfileOf` VARCHAR(250) NULL,
+  `showPeopleOnRadius` INT NULL,
+  `showMinAge` INT NULL,
+  `showMaxAge` INT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC));

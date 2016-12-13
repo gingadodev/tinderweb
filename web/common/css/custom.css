@@ -1,0 +1,41 @@
+
+.ct_bt_primary, .ct_lk_primary{ color: #fff; background: #DC5235}
+.ct_bt_primary:hover, .ct_lk_primary:hover{ background: #C63631}
+.ct_tx_primary{ color: #DC5235}
+
+.ct_tx_green, .ct_lk_green  { color: #69FD93 }
+.ct_tx_blue, .ct_lk_blue   { color: #5176FF }
+.ct_tx_yellow, .ct_lk_yellow { color: #F0DE8B }
+.ct_tx_red, .ct_lk_red { color: #EF4B54 }
+.ct_tx_grey , .ct_lk_grey { color: #ccc    }
+.ct_tx_black , .ct_lk_black { color: #000    }
+
+.ct_lk_green:hover { color: #2AA84D }
+.ct_lk_blue:hover { color: #2240AD }
+.ct_lk_yellow:hover { color: #BC9E18 }
+.ct_lk_red:hover { color: #C42D34 }
+.ct_lk_grey:hover { color: #888    }
+.ct_lk_black:hover { color: #444    }
+
+input:focus { border: 1px solid #DC5235 }
+
+input[type="radio"], 
+input[type="checkbox"] 
+{ height: 0}
+
+.ct_footer {
+    min-height: 30px;
+    margin: 15px 0 20px;
+    padding: 15px
+}
+
+.ct_swiper_container {
+    width: 100%;
+    height: 100%;
+}
+.ct_swiper_slide {
+    text-align: center;
+}
+
+
+
